@@ -1,0 +1,47 @@
+<view class='study'>
+  <view class='info'>
+    <view class='left'>
+      <image src='/img/study01.png'></image>
+    </view>
+    <view class='right'>
+      <text decode='true' class='title'>创意班&nbsp;&nbsp;&nbsp;橡皮泥的使用</text>
+      <text class='schedule'>已学20%</text>
+    </view>
+  </view>
+  <view class='info'>
+    <view class='left'>
+      <image src='/img/study02.png'></image>
+    </view>
+    <view class='right'>
+      <text decode='true' class='title'>美术班&nbsp;&nbsp;&nbsp;荷花的绘制</text>
+      <text class='schedule'>已学50%</text>
+    </view>
+  </view>
+  <view class='info'>
+    <view class='left'>
+      <image src='/img/study03.png'></image>
+    </view>
+    <view class='right'>
+      <text decode='true' class='title'>素描班&nbsp;&nbsp;&nbsp;立体球的绘制</text>
+      <text class='schedule'>已学40%</text>
+    </view>
+  </view>
+  <view class='info'>
+    <view class='left'>
+      <image src='/img/study04.png'></image>
+    </view>
+    <view class='right'>
+      <text decode='true' class='title'>速写班&nbsp;&nbsp;&nbsp;2小时掌握基本理论</text>
+      <text class='schedule'>已学60%</text>
+    </view>
+  </view>
+  <view class='info'>
+    <view class='left'>
+      <image src='/img/study01.png'></image>
+    </view>
+    <view class='right'>
+      <text decode='true' class='title'>创意班&nbsp;&nbsp;&nbsp;橡皮泥的使用</text>
+      <text class='schedule'>已学20%</text>
+    </view>
+  </view>
+</view>

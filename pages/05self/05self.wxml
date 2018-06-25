@@ -1,0 +1,31 @@
+<view class='top'>
+   <image src='{{userInfo.sex=="girl"?"/img/motherP.png":"/img/motherL.gif"}}'></image>
+  <text>{{userInfo.name}}</text> 
+
+    <!-- <image src='/img/motherL.gif'></image>
+  <text>群姐</text> -->
+</view>
+<view class='vip'>
+  <text class='title'>VIP会员到期时间</text>
+  <text class='sub-title'>2028-08-08 08:08</text>
+</view>
+<view class='options'>
+  <view class='info'>
+    <text class='name'>绑定手机号</text>
+    <text class='sign'>></text>
+  </view>
+   <view class='info'>
+    <text class='name'>我的关注</text>
+    <text class='sign'>></text>
+  </view>
+   <view class='info'>
+    <text class='name'>使用须知</text>
+    <text class='sign'>></text>
+  </view>
+   <view class='info'>
+    <text class='name'>我的客服</text>
+    <text class='sign'>></text>
+  </view>
+</view>
+<!--text 不能使用container类名 不然css样式会蹦的  而且text标签还会解析回车键-->
+

@@ -1,0 +1,35 @@
+page {
+}
+
+.study {
+  margin-top: 45rpx;
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 24rpx 34rpx 24rpx;
+  border-bottom: 1px solid red;
+}
+
+.info .left image {
+  display: block;
+  width: 218rpx;
+  height: 145rpx;
+  margin: 0 40rpx 36rpx 0;
+}
+
+.info .right text {
+  display: block;
+}
+
+.info .right .title {
+  font-size: 28rpx;
+  color: rgba(51, 51, 51, 1);
+}
+
+.info .right .schedule {
+font-size:20rpx;
+color:rgba(120,204,0,1);
+margin-top: 68rpx;
+}

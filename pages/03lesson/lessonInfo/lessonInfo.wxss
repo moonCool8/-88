@@ -1,0 +1,150 @@
+page {
+  background-color: #f5f7fb;
+}
+
+video {
+  width: 100%;
+  height: 422rpx;
+  display: block;
+}
+
+.lessonInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 194rpx;
+  margin-bottom: 16rpx;
+  padding: 0 63rpx 0 46rpx;
+  background-color: white;
+}
+
+.lessonInfo .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.lessonInfo .left .title {
+  font-size: 32rpx;
+  color: rgba(51, 51, 51, 1);
+}
+
+.lessonInfo .left .sub-title {
+  font-size: 20rpx;
+  margin-top: 26rpx;
+  color: rgba(162, 162, 162, 1);
+}
+
+.lessonInfo .right button {
+  width: 120rpx;
+  height: 50rpx;
+  font-size: 23rpx;
+  background: rgba(255, 143, 61, 1);
+  border-radius: 10rpx;
+  color: white;
+}
+
+/*navbar  */
+
+.page, .page__bd {
+  height: 573rpx;
+  background-color: white;
+}
+
+.page__bd {
+  padding-bottom: 0;
+}
+
+.weui-tab__content {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.myui-bar__item_on {
+  color: #ff547c;
+}
+
+.myui-navbar__slider {
+  background-color: #ff547c;
+  width: 122rpx;
+  height: 3rpx;
+}
+
+.myui-navbar__title {
+  font-size: 24rpx;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.weui-tab__content {
+  padding-top: 0;
+}
+
+.first view {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 51rpx 0 46rpx;
+  font-size: 22rpx;
+  color: #a9a9a9;
+}
+
+.first .light text {
+  color: #ff547c;
+}
+
+.second {
+  padding: 84rpx 202rpx 109rpx 55rpx;
+  color: #a9a9a9;
+  font-size: 22rpx;
+}
+
+.myui-navbar {
+  background-color: #fff;
+}
+
+.m-info {
+  margin: 41rpx 55rpx 0 41rpx;
+  border-bottom: 1rpx solid red;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.m-info .left {
+  margin-right: 32rpx;
+  /* border-bottom: 1rpx solid red;  */
+}
+
+.m-info .left image {
+  display: block;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.m-info .right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* border-bottom: 1rpx solid red;   */
+}
+
+.m-info .right text {
+  display: block;
+}
+
+.m-info .right .title {
+  font-size: 29rpx;
+  color: rgba(51, 51, 51, 1);
+}
+
+.m-info .right .sub-title {
+  font-size: 24rpx;
+  color: rgba(162, 162, 162, 1);
+}

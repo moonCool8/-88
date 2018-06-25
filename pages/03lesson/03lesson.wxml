@@ -1,0 +1,15 @@
+<block wx:for="{{lessonInfo}}">
+  <view class='item'>
+    <view class='left'>
+      <image src='{{item.path}}'></image>
+      <view class='container'>
+        <text class='title'>{{item.title}}</text>
+        <text class='subTitle'>{{item.subTitle}}</text>
+      </view>
+    </view>
+    <view class='right'>
+      <button data-name="{{item.name}}" bind:tap="toInfo" wx:if="{{!item.isKnow}}" class='no-know'>了解课程</button>
+      <button wx:else class='know'>人数满额</button>
+    </view>
+  </view>
+</block>

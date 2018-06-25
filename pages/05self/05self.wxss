@@ -1,0 +1,67 @@
+page {
+  background: rgba(245, 247, 251, 1);
+}
+
+.top {
+  background-color: white;
+  height: 387rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+
+.top image {
+  display: block;
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+}
+
+.top text {
+  display: block;
+  font-size: 28rpx;
+  color: rgba(51, 51, 51, 1);
+  margin-top: 10rpx;
+}
+.vip{
+  padding: 0 50rpx;
+  height: 100rpx;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+.vip .title{
+font-size:28rpx;
+color:rgba(51,51,51,1);
+}
+.vip .sub-title{
+  font-size:24rpx;
+color:rgba(162,162,162,1);
+}
+.options text{
+  display: block;
+}
+.options{
+  height: 400rpx;
+  background-color: white;
+  padding: 40rpx 52rpx 45rpx 52rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.options .info{
+  display: flex;
+  justify-content: space-between;
+}
+.options .name{
+font-size:28rpx;
+color:rgba(51,51,51,1);
+}
+.options .sign{
+font-size:40rpx;
+color:rgba(162,162,162,1);
+}

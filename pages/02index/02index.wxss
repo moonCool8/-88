@@ -1,0 +1,117 @@
+page {
+  background-color: #f5f7fb;
+}
+
+swiper {
+  height: 266rpx;
+}
+
+swiper swiper-item image {
+  display: block;
+  margin: 26rpx auto;
+  width: 672rpx;
+  height: 266rpx;
+}
+
+.hot-lesson {
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25rpx;
+  margin-top: 52rpx;
+}
+
+.header .left, .header .right {
+  display: flex;
+  align-items: center;
+}
+
+.header .left text {
+  font-size: 26rpx;
+}
+
+.header .left image {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.right image {
+  width: 25rpx;
+  height: 25rpx;
+}
+
+.right  text {
+  font-size: 22rpx;
+  color: #aaacb1;
+}
+
+/*底部  */
+
+.scroll-view_H {
+  margin-top: 34rpx;
+  height: 160rpx;
+  padding: 0 24rpx;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.scroll-view_H .item {
+  width: 300rpx;
+  height: 160rpx;
+  background: rgba(67, 153, 249, 1);
+  border-radius: 10rpx;
+  box-shadow: 7rpx 0rpx 21rpx rgba(67, 153, 249, 0.47);
+  display: inline-block;
+  margin-right: 18rpx;
+  padding-top: 29rpx;
+  padding-left: 26rpx;
+  box-sizing: border-box;
+  color: white;
+}
+
+.scroll-view_H .item .title {
+  font-size: 30rpx;
+}
+
+.scroll-view_H .item .subTitle {
+  font-size: 20rpx;
+  margin-top: 14rpx;
+}
+
+/*底部区域  */
+
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 28rpx;
+  padding: 0 24rpx;
+}
+
+.bottom .box {
+  width: 50%;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.bottom .box image {
+  width: 342rpx;
+  height: 222rpx;
+}
+
+.bottom .box text {
+  display: block;
+  padding: 5rpx 0;
+}
+
+.bottom .box .title {
+  font-size: 20rpx;
+  color: rgba(102, 102, 102, 1);
+}
+
+.bottom .box .seeCount {
+  font-size: 16rpx;
+  color: rgba(153, 153, 153, 1);
+}
